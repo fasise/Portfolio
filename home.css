@@ -18,6 +18,20 @@ body
 
     
   }
+  .ensemble{
+        background-color : black;
+
+    display: block;
+    align-items: center;
+    justify-content : space-around ;
+
+    padding : 10px;
+    width :80%;
+    height: auto;
+    max-height: max-content;
+    margin : 3rem auto 0 auto ;
+    column-gap: normal;
+  }
 
   header {
     background-color: rgb(10, 10, 10);
@@ -236,7 +250,7 @@ margin-left: 5%;
     float : left ; 
     animation: animate-name 3s ease-out;
     opacity: 1;
-    color: azure;
+    color: rgb(0, 0, 0);
     position: absolute;
     right: 12%;
 
@@ -250,12 +264,13 @@ margin-left: 5%;
   }
 
 .moi{
-  color:bisque;
+  color:rgb(179, 102, 8);
   width: 400;
+  margin-left: 6%;
   margin-right:5%;
-  margin-top: 20% ;
+  margin-top: 13% ;
   max-width: 400px;
-  padding: left 200px; ;
+  padding: left 400px; ;
   position: absolute;
   right: 0%;
   top:0%;
