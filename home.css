@@ -1,0 +1,265 @@
+
+body
+{
+
+  background-image: url(images/profil.png);
+  
+  
+}
+@media only screen and (max-width :700px){
+
+  nav ul{
+    width: 100%;
+    position: absolute;
+    top :75px;
+    right:0;
+    z-index: 2;
+
+
+    
+  }
+
+  header {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    left: 0;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav ul li{
+    display: flex;
+
+  }
+
+  .logo{
+    color : white;
+    font-size :35px ;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: absolute;
+    top:5%
+  }
+  .btn{
+    background-color: #f9004d;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    border : 1px solid transparent;
+    padding: 5px 25px;
+    height: 30px;
+    align-items : center;
+    border-radius: 25px;
+    transition: transform .4s;
+    position: absolute;
+    top:5%
+    
+  }
+  .btn:hover{
+    transform: scale(1.2);
+  }
+}
+
+.Section_top{
+   /* 
+    height: auto;
+    overflow: hidden;
+    position: relative;*/
+   
+
+
+
+   /* background-position: top center,bottom left;
+    justify-content: center;   url(images/image.jpg),*/
+}
+
+
+/*
+@keyframes change{
+    0%
+    {
+        background-image: url(images/img1.jpg);
+    }
+    20%
+    {
+        background-image: url(images/img2.jpg);
+    }
+    40%
+    {
+        background-image: url(images/image.jpg);
+    }
+    60%
+    {
+        background-image: url(images/img4.jpg);
+    }
+    80%
+    {
+        background-image: url(images/img5.jpg);
+    }
+    100%
+    {
+        background-image: url(images/img1.jpg);
+    }
+}
+
+*/
+
+  header {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    left: 0;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+
+  nav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+  }
+  nav ul li a:hover{
+ color: #f9004d;
+ transition: .4s;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+.logo{
+  color : white;
+  font-size :35px ;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn{
+  background-color: #f9004d;
+  color: beige;
+  text-decoration: none;
+  font-weight: bold;
+  border : 1px solid transparent;
+  padding: 5px 25px;
+  height: 30px;
+  align-items : center;
+  border-radius: 25px;
+  transition: transform .4s;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+      
+  span{
+    color:#f9004d ;
+  }
+
+  .contact{
+    display: inline-block;
+    background: #101010;
+    width:100%;
+    
+  }
+  .title h3{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+position: absolute;
+bottom: 20%;
+margin-left: 5%;   
+
+  }
+
+  .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color:#f9004d ;
+    margin-bottom :0;
+
+  }
+.group{
+  display: block;
+  margin: 5%;
+}
+ 
+
+  .card{
+    padding-bottom: 0;
+
+    display: flex;
+    align-items: center;
+    height:80px ;
+    width: 410px;
+    padding: 35px 10px ;
+    background: #191919 ;
+    border-radius:20px ;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+                bottom: 0px;
+  }
+
+  @keyframes animate-name {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .animated-name {
+    float : left ; 
+    animation: animate-name 3s ease-out;
+    opacity: 1;
+    color: azure;
+    position: absolute;
+    right: 12%;
+
+
+  }
+  
+ 
+  .footers{
+    position: absolute;
+    bottom: 0;
+  }
+
+.moi{
+  color:bisque;
+  width: 400;
+  margin-right:5%;
+  margin-top: 20% ;
+  max-width: 400px;
+  padding: left 200px; ;
+  position: absolute;
+  right: 0%;
+  top:0%;
+
+
+
+}
