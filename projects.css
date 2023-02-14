@@ -108,7 +108,11 @@ span{
     max-height: max-content;
     column-gap: normal;
   }
-
+.implbd{
+ width=50%;
+      height: auto;
+  align-items:center;"
+}
   .imagesociete{
     height :90px;
     width: 120px;
